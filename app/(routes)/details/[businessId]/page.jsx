@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useSession, signIn } from "next-auth/react";
 import GlobalApi from "@/app/_services/GlobalApi";
 import { use } from "react"; // Import `use`
-import Businessinfo from "../../search/_components/Businessinfo";
+import Businessinfo from "../../search/_components/BusinessInfo";
 import SuggestedBusinessList from "../../search/_components/SuggestedBusinessList";
 import BusinessDescription from "../../search/_components/BusinessDescription";
 import { useUser } from "@clerk/nextjs";
