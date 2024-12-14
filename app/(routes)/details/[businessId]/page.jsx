@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { useSession, signIn } from "next-auth/react";
 import GlobalApi from "@/app/_services/GlobalApi";
 import { use } from "react"; // Import `use`
 import Businessinfo from "../../search/_components/BusinessInfo";
